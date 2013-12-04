@@ -1,0 +1,12 @@
+"hg6928
+
+loadplugins '\.(js|penta)$'
+group user
+map -count -modes=n,v I <count><pass-all-keys>
+map -count -modes=n,v _ <count><C-^>
+set guioptions=bNs
+set hintkeys=auietsrnmbépovdljàyx.qghf
+set showtabline=multitab
+set verbose=2
+
+" vim: set ft=pentadactyl:
